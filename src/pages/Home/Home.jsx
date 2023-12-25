@@ -1,19 +1,17 @@
 import { useEffect } from "react";
 
 import Navbar from "../../components/Navbar/Navbar";
-import Banner from "../../components/Banner/Banner";
-
+import Skillset from "../../components/Skillset/Skillset";
 
 const Home = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
 
   return (
     <div>
       <Navbar />
-      <Banner/>
-    
+      <Banner />
+      <Skillset/>
+     
     </div>
   );
 };
