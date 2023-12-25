@@ -1,7 +1,7 @@
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import { MdOutlineFileDownload } from "react-icons/md";
-import resume from "../../assets/FaysalHosen_Resume.pdf";
+import resume from "../../assets/images/Faysal_Hosen_Resume.pdf";
 import AltNavbar from "../../components/Navbar/AltNavbar";
 
 const Resume = () => {
@@ -18,7 +18,8 @@ const Resume = () => {
     link.href = pdfUrl;
 
     // Set the download attribute to suggest the name for the downloaded file
-    link.download = "FaysalHosen_Resume.pdf";
+    //link.download = "FaysalHosen_Resume.pdf";
+    link.download = "Faysal_Hosen_Resume.pdf";
 
     // Append the link to the document
     document.body.appendChild(link);

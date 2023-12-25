@@ -4,7 +4,7 @@ import Container from "../Shared/Container";
 import TypingAnimation from "./TypingAnimation";
 import bannerAnime2 from "../../assets/animations/bannerAnime2.json";
 import { MdOutlineFileDownload } from "react-icons/md";
-import resume from "../../assets/FaysalHosen_Resume.pdf";
+import resume from "../../assets/images/Faysal_Hosen_Resume.pdf";
 
 const Banner = () => {
 
@@ -19,7 +19,8 @@ const Banner = () => {
     link.href = pdfUrl;
 
     // Set the download attribute to suggest the name for the downloaded file
-    link.download = "FaysalHosen_Resume.pdf";
+    //link.download = "FaysalHosen_Resume.pdf";
+    link.download = "Faysal_Hosen_Resume.pdf";
 
     // Append the link to the document
     document.body.appendChild(link);
