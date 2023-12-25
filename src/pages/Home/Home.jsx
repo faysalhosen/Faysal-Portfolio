@@ -5,7 +5,7 @@ import Projects from "../../components/Projects/Projects";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "../../utils/ScrollToTop";
-
+import Contact from "../../components/Contact/Contact";
 import Skillset from "../../components/Skillset/Skillset";
 const Home = () => {
   useEffect(() => {
@@ -20,7 +20,7 @@ const Home = () => {
       <div className="bg-[#050b1f]">
         <Projects/>
         <ScrollToTop/>
-       
+        <Contact />
       </div>
     </div>
   );
