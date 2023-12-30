@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "../../utils/ScrollToTop";
 import Contact from "../../components/Contact/Contact";
+import BannerMarquee from "../../components/Banner/BannerMarquee";
 const Home = () => {
   useEffect(() => {
     AOS.init();
@@ -13,8 +14,9 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Banner />
+      <BannerMarquee/>
       <div className="bg-[#050b1f]">
         <Projects/>
         <ScrollToTop/>
