@@ -2,36 +2,27 @@ import Container from "../Shared/Container";
 import contactAnime from "../../assets/animations/contactAnime.json";
 import { BsSend } from "react-icons/bs";
 import Lottie from "lottie-react";
-import axios from "axios";
+//import axios from "axios";
 import toast from "react-hot-toast";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+
 /* eslint-disable react/no-unescaped-entities */
 const Contact = () => {
-  const handleContact = async (e) => {
+  const form = useRef();
+  const sendEmail = (e) => {
     e.preventDefault();
-    const form = e.target;
-    const name = form.name.value;
-    const email = form.email.value;
-    const subject = form.subject.value;
-    const messageText = form.message.value;
-    const message = { messageText, subject };
-    try {
-      const res = await axios.post(
-       // `https://formspree.io/${import.meta.env.VITE_FORM_ENDPOINT}`,
-        {
-          name,
-          email,
-          subject,
-          message,
+
+    emailjs.sendForm('service_1w59ogg', 'template_5vrns2q', form.current, 'T0Ne0ueeh7KAGZEjV')
+      .then((result) => {
+        if (result) {
+          toast.success("Message sent successfully");
+          
         }
-      );
-      if (res?.data?.ok) {
-        toast.success("Message sent successfully");
-        form.reset();
-      }
-    } catch (err) {
-      console.log("Error submitting form", err);
-    }
+      }, (error) => {
+          console.log(error.text);
+      });
   };
   return (
     <Container>
@@ -64,23 +55,22 @@ const Contact = () => {
             </div>
           </div>
           {/* form */}
-          <form
+          <form ref={form} onSubmit={sendEmail}
           data-aos="fade-down" data-aos-duration="1500"
-            onSubmit={handleContact}
             className="p-8 bg-gradient-to-r from-[#111b3c] to-[#174348] rounded-md space-y-6"
           >
             <div className="flex gap-4">
               <input
                 type="text"
                 placeholder="Your Name"
-                name="name"
+                name="user_name"
                 className="input text-black input-bordered input-info w-full"
                 required
               />
               <input
                 type="text"
-                placeholder="Your Email"
-                name="email"
+                placeholder="user_email"
+                name="form_name"
                 className="input text-black input-bordered input-info w-full "
                 required
               />
@@ -88,14 +78,14 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Your Subject"
-              name="subject"
+              name="form_name"
               className="input text-black input-bordered input-info w-full"
               required
             />
             <textarea
               className="textarea textarea-info w-full text-black"
               name="message"
-              placeholder="Your Message"
+              placeholder="message"
               required
             ></textarea>
             <div className="flex">
