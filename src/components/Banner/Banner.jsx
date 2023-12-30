@@ -64,7 +64,7 @@ const Banner = () => {
             </button>
           </div>
           {/* image */}
-          <div data-aos="fade-down" data-aos-duration="3000" className="w-72 md:w-80 lg:w-[500px]">
+          <div data-aos="fade-down" data-aos-duration="3000" className="w-72 md:w-80 lg:w-[400px]">
             <Lottie animationData={bannerAnime2} loop={true}/>
           </div>
         </div>

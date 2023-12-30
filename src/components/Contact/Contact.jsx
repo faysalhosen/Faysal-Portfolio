@@ -49,9 +49,9 @@ const Contact = () => {
             {/* social icons */}
             <div className="flex gap-5 justify-center items-center">
 
-            <a target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35}/></a>
-            <a target="_blank" href="https://www.linkedin.com/in/faysal-hosen/" rel="noreferrer"> <FaLinkedin size={35}/></a>
-            <a target="_blank" href="https://www.instagram.com/faysalhosen7025/" rel="noreferrer"> <FaInstagram size={35}/></a>
+            <a className="hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35}/></a>
+            <a className="hover:text-[#006e7b]"  target="_blank" href="https://www.linkedin.com/in/faysal-hosen/" rel="noreferrer"> <FaLinkedin size={35}/></a>
+            <a className="hover:text-[#006e7b]" target="_blank" href="https://www.instagram.com/faysalhosen7025/" rel="noreferrer"> <FaInstagram size={35}/></a>
             </div>
           </div>
           {/* form */}
