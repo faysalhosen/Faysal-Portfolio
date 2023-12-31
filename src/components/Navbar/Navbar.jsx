@@ -41,10 +41,10 @@ const Navbar = () => {
         >
           About
         </Link>
-
+      
       </li>
       <li className="hover:text-[#4ecbd9] hover:cursor-pointer">
-        <Link
+      <Link
           className="px-4 py-2"
           to="projects"
           spy={true}
@@ -55,7 +55,7 @@ const Navbar = () => {
         >
           Projects
         </Link>
-      </li>
+        </li>
 
       <li className=" hover:text-[#4ecbd9] hover:cursor-pointer">
         <Link
@@ -72,7 +72,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li className="hover:text-[#4ecbd9]">
-
+       
       </li>
     </>
   );
