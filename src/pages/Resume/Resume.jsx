@@ -48,11 +48,7 @@ const Resume = () => {
         </Worker>
       </div>
 
-       {/* Resume download button */}
-       <div className="flex justify-center text-white mt-2">
-      <button onClick={handleDownloadResume} className="btn duration-300 bg-gradient-to-r from-[#617bce] to-[#43aeba] border-none text-white font-bold hover:scale-105"> 
-      <MdOutlineFileDownload size={25}/>DOWNLOAD RESUME</button>
-      </div>
+     
     </div>
   );
 };
