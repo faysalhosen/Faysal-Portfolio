@@ -29,16 +29,7 @@ const AltNavbar = () => {
       </li>
      
       <li className="hover:text-[#4ecbd9]">
-      <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            isActive
-              ? "bg-gradient-to-l from-[#111b3c] to-[#006e7b] px-4  py-2  text-white rounded"
-              : "px-4 py-2"
-          }
-        >
-          About
-        </NavLink>
+      
       </li>
     </>
   );

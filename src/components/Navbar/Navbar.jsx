@@ -30,44 +30,46 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li className="hover:text-[#4ecbd9] hover:cursor-pointer">
-         <Link 
-     className="px-4 py-2"
-      to="projects" 
-      spy={true} 
-      smooth={true} 
-      offset={20} 
-      duration={500} 
-      
-    >
-      Projects
-    </Link>
+        <Link
+          className="px-4 py-2"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={20}
+          duration={500}
+
+        >
+          About
+        </Link>
+        <Link
+          className="px-4 py-2"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={20}
+          duration={500}
+
+        >
+          Projects
+        </Link>
       </li>
 
       <li className=" hover:text-[#4ecbd9] hover:cursor-pointer">
-         <Link 
-         to="contact"
-      className="px-4 py-2"
-      
-      spy={true} 
-      smooth={true} 
-      offset={50} 
-      duration={500} 
-      
-    >
-      Contact
-    </Link>
+        <Link
+          to="contact"
+          className="px-4 py-2"
+
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+
+        >
+          Contact
+        </Link>
       </li>
       <li className="hover:text-[#4ecbd9]">
-      <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            isActive
-              ? "bg-gradient-to-l from-[#111b3c] to-[#006e7b] px-4  py-2  text-white rounded"
-              : "px-4 py-2"
-          }
-        >
-          About
-        </NavLink>
+       
       </li>
     </>
   );

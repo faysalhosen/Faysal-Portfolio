@@ -1,10 +1,9 @@
 
-import AltNavbar from "../../components/Navbar/AltNavbar";
 import Skills from "../Skills/Skills"
 const About = () => {
   return (
-    <div className="bg-[#111b3c]">
-      <AltNavbar/>
+    <div id="about" className="bg-[#111b3c]">
+      
       <div name="about" className=" pt-0 lg:pt-10 pb-5">
       <h1 className=" bg-gradient-to-br bg-clip-text text-[#42ddee]  text-5xl text-center py-4 lg:py-10 font-bold">
           About Me
