@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { FaLaptopCode } from "react-icons/fa";
+import { PiCodeFill } from "react-icons/pi";
+
 import { Link } from 'react-scroll';
 const Navbar = () => {
   const navLinks = (
@@ -104,7 +105,7 @@ const Navbar = () => {
           </ul>
 
           <div className="hidden lg:flex items-center gap-2 bg-gradient-to-l from-[#203371] to-[#006e7b] px-4 p-2 rounded-lg shadow-xl text-white">
-            <FaLaptopCode size={25} />
+            <PiCodeFill size={25} />
           </div>
         </div>
 
