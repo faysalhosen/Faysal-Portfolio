@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import projectImg1 from "../../assets/images/project1.png";
 import projectImg2 from "../../assets/images/project2.png";
 import projectImg3 from "../../assets/images/project3.png";
@@ -48,13 +49,13 @@ const Projects = () => {
                 <p className="text-start">
                 News Wave, a dynamic web application, seamlessly delivers curated news content. Crafted with ReactJS and Tailwind, its responsive design ensures an optimal viewing experience across devices. The backend, powered by Express.js and MongoDB, provides a robust foundation for efficient data management. User authentication is fortified by Firebase, fostering a secure environment for role-based access.
                 </p>
-                <p className="text-start mt-1">
+                <p className="text-start mt-2 text-slate-100">
                   <span className="font-bold">Developed with:</span> ReactJS,
                   TailwindCSS, Firebase, Mongoose, Express, Node, JWT web token.
                 </p>
               </div>
 
-              <div className="flex justify-end gap-4">
+              {/* <div className="flex justify-end gap-4">
                 <a
                   target="_blank"
                   href="https://news-wave-af65c.web.app/"
@@ -71,7 +72,13 @@ const Projects = () => {
                 >
                   GITHUB
                 </a>
-              </div>
+              </div> */}
+              <div className="flex gap-5 justify-center items-center">
+
+            <a className="hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35}/></a>
+            <a className="hover:text-[#006e7b]"  target="_blank" href="https://www.linkedin.com/in/faysal-hosen/" rel="noreferrer"> <FaLinkedin size={35}/></a>
+            <a className="hover:text-[#006e7b]" target="_blank" href="https://www.instagram.com/faysalhosen7025/" rel="noreferrer"> <FaInstagram size={35}/></a>
+            </div>
             </div>
           </div>
           {/* project two */}
@@ -90,13 +97,13 @@ const Projects = () => {
 
 
                 </p>
-                <p className="text-start mt-1">
-                  <span className="font-bold">Developed with:</span> ReactJS,
+                <p className="text-start mt-2 text-slate-100">
+                  <span className="font-bold text-slate-200">Developed with:</span> ReactJS,
                   Firebase, Express, TailwindCSS, NodeJS, MongoDB
                 </p>
               </div>
 
-              <div className="flex justify-start gap-4">
+              {/* <div className="flex justify-start gap-4">
                 <a
                   target="_blank"
                   href="https://home-page-exchange-c76d3.web.app/"
@@ -113,7 +120,13 @@ const Projects = () => {
                 >
                   GITHUB
                 </a>
-              </div>
+              </div> */}
+              <div className="flex gap-5 justify-center items-center">
+
+            <a className="hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35}/></a>
+            <a className="hover:text-[#006e7b]"  target="_blank" href="https://www.linkedin.com/in/faysal-hosen/" rel="noreferrer"> <FaLinkedin size={35}/></a>
+            <a className="hover:text-[#006e7b]" target="_blank" href="https://www.instagram.com/faysalhosen7025/" rel="noreferrer"> <FaInstagram size={35}/></a>
+            </div>
             </div>
             <a
               target="_blank"
@@ -152,13 +165,13 @@ const Projects = () => {
                 <p className="text-start">
                 Brand Shop, a robust web application tailored for all your shopping needs. Built with React.js and styled with Tailwind CSS, the frontend offers a sleek and intuitive shopping experience. The backend, driven by Express.js and MongoDB, ensures seamless data management. With Firebase authentication, Brand Shop guarantees a secure environment, providing users access to a diverse range of shop-related services in a modern and user-friendly interface."
                 </p>
-                <p className="text-start">
-                  <span className="font-bold">Developed with:</span> ReactJS,
-                  TailwindCSS, Firebase, Firestore
+                <p className="text-start mt-2 text-slate-100">
+                  <span className="font-bold text-slate-200">Developed with:</span> ReactJS,
+                  Firebase, Express, TailwindCSS, NodeJS, MongoDB
                 </p>
               </div>
 
-              <div className="flex justify-end gap-4">
+              {/* <div className="flex justify-end gap-4">
                 <a
                   target="_blank"
                   href="https://brand-shop-6bcb5.web.app/"
@@ -175,7 +188,13 @@ const Projects = () => {
                 >
                   GITHUB
                 </a>
-              </div>
+              </div> */}
+              <div className="flex gap-5 justify-center items-center">
+
+            <a className="hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35}/></a>
+            <a className="hover:text-[#006e7b]"  target="_blank" href="https://www.linkedin.com/in/faysal-hosen/" rel="noreferrer"> <FaLinkedin size={35}/></a>
+            <a className="hover:text-[#006e7b]" target="_blank" href="https://www.instagram.com/faysalhosen7025/" rel="noreferrer"> <FaInstagram size={35}/></a>
+            </div>
             </div>
           </div>
         </div>
