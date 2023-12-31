@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 const TypingAnimation = () => {
     return(
        <div>
+       <span className="text-4xl text-white font-bold"> I'm a </span>
          <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially

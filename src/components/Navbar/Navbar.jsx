@@ -44,9 +44,6 @@ const Navbar = () => {
       </li>
 
       <li className=" hover:text-[#4ecbd9] hover:cursor-pointer">
-        {/* <a className="px-4 py-2" href="#contact">
-          Contact
-        </a> */}
          <Link 
          to="contact"
       className="px-4 py-2"

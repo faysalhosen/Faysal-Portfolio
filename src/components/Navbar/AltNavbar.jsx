@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { FaLaptopCode } from "react-icons/fa";
 import { PiCodeFill } from "react-icons/pi";
 const AltNavbar = () => {
   const navLinks = (
