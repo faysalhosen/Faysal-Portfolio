@@ -1,5 +1,6 @@
 import {
     FaCalendarAlt,
+   FaGraduationCap,
    // FaGraduationCap,
     FaHome,
     FaPhone,
@@ -29,10 +30,10 @@ import {
             <HiMail className=" text-[#4ecbd9]" />
             <p>faysalhosen7025@gmail.com</p>
           </div>
-          {/* <div className=" flex items-center gap-2">
-            {/* <FaGraduationCap className=" text-[#A456F6]" />
-            <p>BSS Hon's</p> */}
-          {/* </div> */} 
+          <div className=" flex items-center gap-2">
+             <FaGraduationCap className=" text-[#4ecbd9]" />
+            <p>BSS in Social Work</p>
+          </div> 
           <div className=" flex items-center gap-2">
             <FaPhone className=" text-[#4ecbd9]" />
             <p>+8801998415247</p>
@@ -43,7 +44,7 @@ import {
           </div>
           <div className=" flex items-center gap-2">
             <FaHome className=" text-[#4ecbd9]" />
-            <p> Gazipur, Dhaka</p>
+            <p> Gazipur, Dhaka,Bangladesh</p>
           </div>
         </div>
       </div>
