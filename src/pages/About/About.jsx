@@ -1,6 +1,6 @@
 
 import AltNavbar from "../../components/Navbar/AltNavbar";
-
+import Skills from "../Skills/Skills"
 const About = () => {
   return (
     <div className="bg-[#111b3c]">
@@ -21,7 +21,7 @@ const About = () => {
             alt=""
           />
         </div>
-        
+        <Skills/>
       </div>
     </div>
   );
