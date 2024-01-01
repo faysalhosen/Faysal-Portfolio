@@ -55,25 +55,6 @@ const Projects = () => {
                 </p>
               </div>
 
-
-              {/* <div className="flex justify-end gap-4">
-                <a
-                  target="_blank"
-                  href="https://news-wave-af65c.web.app/"
-                  className="btn border-none text-black duration-300 bg-gradient-to-r from-[#617bce] to-[#43aeba] hover:scale-105"
-                  rel="noreferrer"
-                >
-                  LIVE SITE
-                </a>
-                <a
-                  target="_blank"
-                  href="https://github.com/faysalhosen/news-wave-client"
-                  className="btn btn-outline text-[#617bce] hover:bg-[#2d7e87]"
-                  rel="noreferrer"
-                >
-                  GITHUB
-                </a>
-              </div> */}
               <div className="flex gap-5 justify-center items-center">
                 <a className="text-sm font-extrabold text-[#42ddee]" target="_blank" href="https://news-wave-af65c.web.app/" rel="noreferrer"> <FaExternalLinkAlt size={25} />LIVE</a>
                 <a className="text-5xl hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35} /></a>
@@ -97,8 +78,6 @@ const Projects = () => {
                 <p className="text-start">
                   Home service is a user-friendly web application crafted with React.js and Tailwind CSS, offering a seamless experience for home service providers. The backend, powered by Express.js and MongoDB, ensures efficient data handling and storage. Secure access is guaranteed through Firebase authentication, providing a reliable and modern platform for connecting home service seekers with skilled professionals.
 
-
-
                 </p>
                 <p className="text-start mt-2 text-slate-100">
                   <span className="font-bold text-slate-200">Developed with:</span> ReactJS,
@@ -106,24 +85,6 @@ const Projects = () => {
                 </p>
               </div>
 
-              {/* <div className="flex justify-start gap-4">
-                <a
-                  target="_blank"
-                  href="https://home-page-exchange-c76d3.web.app/"
-                  className="btn border-none text-black duration-300 bg-gradient-to-r from-[#617bce] to-[#43aeba] hover:scale-105"
-                  rel="noreferrer"
-                >
-                  LIVE SITE
-                </a>
-                <a
-                  target="_blank"
-                  href="https://github.com/faysalhosen/Home-page-exchange-client"
-                  className="btn btn-outline text-[#9bb2ff] hover:bg-[#2d7e87]"
-                  rel="noreferrer"
-                >
-                  GITHUB
-                </a>
-              </div> */}
               <div className="flex gap-5 justify-center items-center">
 
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35} /></a>
@@ -174,24 +135,6 @@ const Projects = () => {
                 </p>
               </div>
 
-              {/* <div className="flex justify-end gap-4">
-                <a
-                  target="_blank"
-                  href="https://brand-shop-6bcb5.web.app/"
-                  className="btn border-none text-black duration-300 bg-gradient-to-r from-[#617bce] to-[#43aeba] hover:scale-105"
-                  rel="noreferrer"
-                >
-                  LIVE SITE
-                </a>
-                <a
-                  target="_blank"
-                  href="https://github.com/faysalhosen/brand-shop-client"
-                  className="btn btn-outline text-[#617bce] hover:bg-[#2d7e87]"
-                  rel="noreferrer"
-                >
-                  GITHUB
-                </a>
-              </div> */}
               <div className="flex gap-5 justify-center items-center">
 
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35} /></a>
