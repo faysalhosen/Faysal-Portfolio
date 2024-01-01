@@ -54,7 +54,6 @@ const Projects = () => {
                   TailwindCSS, Firebase, Mongoose, Express, Node, JWT web token.
                 </p>
               </div>
-
               <div className="flex gap-5 justify-center items-center">
                 <a className="text-sm font-extrabold text-[#42ddee]" target="_blank" href="https://news-wave-af65c.web.app/" rel="noreferrer"> <FaExternalLinkAlt size={25} />LIVE</a>
                 <a className="text-5xl hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35} /></a>
@@ -86,7 +85,7 @@ const Projects = () => {
               </div>
 
               <div className="flex gap-5 justify-center items-center">
-
+              <a className="text-sm font-extrabold text-[#42ddee]" target="_blank" href="https://home-page-exchange-c76d3.web.app/" rel="noreferrer"> <FaExternalLinkAlt size={25} />LIVE</a>
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35} /></a>
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://www.linkedin.com/in/faysal-hosen/" rel="noreferrer"> <FaLinkedin size={35} /></a>
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://www.instagram.com/faysalhosen7025/" rel="noreferrer"> <FaInstagram size={35} /></a>
@@ -136,7 +135,7 @@ const Projects = () => {
               </div>
 
               <div className="flex gap-5 justify-center items-center">
-
+              <a className="text-sm font-extrabold text-[#42ddee]" target="_blank" href="https://news-wave-af65c.web.app/" rel="noreferrer"> <FaExternalLinkAlt size={25} />LIVE</a>
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35} /></a>
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://www.linkedin.com/in/faysal-hosen/" rel="noreferrer"> <FaLinkedin size={35} /></a>
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://www.instagram.com/faysalhosen7025/" rel="noreferrer"> <FaInstagram size={35} /></a>
