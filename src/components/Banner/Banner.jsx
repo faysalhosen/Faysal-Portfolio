@@ -33,14 +33,14 @@ const Banner = () => {
   };
 
   return (
-    <div id="hero" className="min-h-screen w-full object-cover bg-no-repeat bg-banner-image">
+    <div id="hero" className="  min-h-screen w-full pt-6 bg-[#050b1f]">
       {/* overlay */}
-      <div className="min-h-screen bg-blend-overlay absolute bg-black/20 w-full"></div>
+      <div className="min-h-screen w-full absolute bg-black/20 "></div>
       <Container>
         {/* main container */}
-        <div className="flex flex-col-reverse md:flex-row items-center justify-center py-4 md:pt-28 lg:pt-12">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-center py-4 md:pt-28 lg:pt-10">
           {/* text content */}
-          <div data-aos="fade-up" data-aos-duration="3000" className="space-y-4 w-80 md:w-[450px]">
+          <div data-aos="fade-up" data-aos-duration="3000" className="space-y-3 w-80 md:w-[450px]">
             <h2 className="text-2xl md:text-3xl font-semibold text-white animate-bounce">
               Hello, It's Me
             </h2>
