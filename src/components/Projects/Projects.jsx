@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import projectImg1 from "../../assets/images/project1.png";
 import projectImg2 from "../../assets/images/project2.png";
 import projectImg3 from "../../assets/images/project3.png";
@@ -75,12 +75,13 @@ const Projects = () => {
                 </a>
               </div> */}
               <div className="flex gap-5 justify-center items-center">
-
-                <a className="hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35} /></a>
+                <a className="text-sm font-extrabold text-[#42ddee]" target="_blank" href="https://news-wave-af65c.web.app/" rel="noreferrer"> <FaExternalLinkAlt size={25} />LIVE</a>
+                <a className="text-5xl hover:text-[#006e7b]" target="_blank" href="https://github.com/faysalhosen" rel="noreferrer"> <FaGithub size={35} /></a>
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://www.linkedin.com/in/faysal-hosen/" rel="noreferrer"> <FaLinkedin size={35} /></a>
                 <a className="hover:text-[#006e7b]" target="_blank" href="https://www.instagram.com/faysalhosen7025/" rel="noreferrer"> <FaInstagram size={35} /></a>
+
               </div>
-              
+
             </div>
           </div>
           {/* project two */}
