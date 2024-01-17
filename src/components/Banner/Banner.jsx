@@ -33,7 +33,7 @@ const Banner = () => {
   };
 
   return (
-    <div id="hero" className="  min-h-screen w-full pt-6 bg-[#050b1f]">
+    <div id="hero" className="h-screen w-full bg-center  pt-6 bg-[#050b1f]">
       {/* overlay */}
       <div className="min-h-screen w-full absolute bg-black/20 "></div>
       <Container>
